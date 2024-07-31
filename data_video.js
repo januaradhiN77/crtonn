@@ -6073,7 +6073,7 @@
                 "gendre3": "Sci-Fi",
                 "description": "Peter Parker berusaha menyeimbangkan dua kehidupannya yang sangat bertolak belakang - menghentikan aksi penjualan senjata Chitauri oleh Adrian Toomes dan menjalani hari-hari selayaknya murid SMA.",
                 "bgimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6RlRxPM2TQP58lvvD5DM7IwFgPtl3n17Ijg&usqp=CAU",
-                "trailer": "https://www.youtube.com/embed/XFj8KnTq278?si=__4MNhlpN1wYZIvj",
+                "trailer": "https://www.youtube.com/embed/rk-dF1lIbIg",
                 "duration": "2 jam 13m",
 "episodes": [
         {

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riwayat Tontonan</title>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Zen+Maru+Gothic' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Barlow+Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" id="theme-link" href="style.css">
+  <style>
+    .box-history {
+      color: white;
+      border-radius: 10px;
+      width: 95%;
+      display: flex;
+      background: #222224;
+      box-shadow: rgba(64, 60, 67, 0.3) 0px 1px 2px 0px, rgba(64, 60, 67, 0.15) 0px 0px 2px 0px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .box-history img {
+      width: 120px;
+      object-fit: cover;
+      
+      border-radius: 10px;
+    }
+    .name-history {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .name-history h1 {
+      font-size: 23px;
+      font-weight: 700;
+      font-family: 'Zen Maru Gothic';
+    }
+    .bg-history-tonton {
+      margin-top: 10px;
+      background: #28394A;
+      height: 45px;
+      border-radius: 10px 50px 50px 10px;
+      justify-content: center;
+      align-items: center;
+      width: 180px;
+      display: flex;
+      text-align: center;
+      cursor: pointer;
+    }
+    .bg-history-tonton:focus {
+      outline: none;
+    }
+    .bg-history-tonton h1 {
+      font-size: 25px;
+      margin-right: auto;
+      margin-left: 20px;
+    }
+    .bg-history-tonton span {
+      font-size: 45px;
+      margin-left: 30px;
+      margin-right: auto;
+    }
+    .btn-delete {
+      margin-top: 10px;
+      background-color: #FF3D00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header_app">
+      <button class="buttongoweb">
+        <div class="header_logo">
+          <span class="mdi mdi-history" style="font-family: 'Zen Maru Gothic'; font-size: 30px;">History Nonton</span>
+        </div>
+      </button>
+    </div>
+  </header>
+  <nav>
+    <div class="navbar-container">
+      <button class="buttongoweb" onclick="goToLink('index.html')">
+        <div class="navbar-box" ontouchstart="addOverlayNavbar(event)" ontouchend="removeOverlayNavbar(event)" ontouchcancel="removeOverlayNavbar(event)">
+          <div class="overlay-navbar"></div>
+          <span class="mdi mdi-home"></span>
+          <h1>Home</h1>
+        </div>
+      </button>
+      <button class="buttongoweb" onclick="goToLink('cari.html')">
+        <div class="navbar-box" ontouchstart="addOverlayNavbar(event)" ontouchend="removeOverlayNavbar(event)" ontouchcancel="removeOverlayNavbar(event)">
+          <div class="overlay-navbar"></div>
+          <span class="mdi mdi-movie"></span>
+          <h1>Movie</h1>
+        </div>
+      </button>
+      <div class="navbar-box" ontouchstart="addOverlayNavbar(event)" ontouchend="removeOverlayNavbar(event)" ontouchcancel="removeOverlayNavbar(event)">
+        <div class="overlay-navbar"></div>
+        <span class="mdi mdi-history" style="color: #FFC601; background: #CECECE7A; border-radius: 50%; width: 25px; height: 25px;"></span>
+        <h1 style="color: #FFC601;">History</h1>
+      </div>
+      <button class="buttongoweb" onclick="goToLink('favorit.html')">
+        <div class="navbar-box" ontouchstart="addOverlayNavbar(event)" ontouchend="removeOverlayNavbar(event)" ontouchcancel="removeOverlayNavbar(event)">
+          <div class="overlay-navbar"></div>
+          <span class="mdi mdi-bookmark"></span>
+          <h1>Favorit</h1>
+        </div>
+      </button>
+      <button class="buttongoweb" onclick="goToLink('lainnya.html')">
+        <div class="navbar-box" ontouchstart="addOverlayNavbar(event)" ontouchend="removeOverlayNavbar(event)" ontouchcancel="removeOverlayNavbar(event)">
+          <div class="overlay-navbar"></div>
+          <span class="mdi mdi-information"></span>
+          <h1>About</h1>
+        </div>
+      </button>
+    </div>
+  </nav>
+  <section class="container-history" style="display: flex; flex-direction: column; justify-content: center; align-items: center;color: white;text-align: center;">
+    <div id="historyContainer" style="display: flex; width: 100%; flex-direction: column; justify-content: center; align-items: center; margin-top: 70px; gap: 0px;text-align: left;"></div>
+
+    <div class="batas"></div>
+    <div class="batas" style="height: 7px;"></div>
+
+  </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const historyContainer = document.getElementById('historyContainer');
+    const history = JSON.parse(localStorage.getItem('watchHistory')) || [];
+
+    historyContainer.innerHTML = ''; // Mengosongkan konten sebelum menambahkan riwayat tontonan baru
+
+    if (history.length === 0) {
+        historyContainer.innerHTML = '<p style="color:gray;margin-top: 75%;;">Tidak ada history</p>';
+    } else {
+        history.forEach(item => {
+            if (item.watchedAt) { // Memastikan watchedAt ada dan tidak undefined
+                const historyItem = document.createElement('div');
+                historyItem.classList.add('box-history');
+
+                const img = document.createElement('img');
+                img.src = item.img;
+                img.alt = item.title;
+
+                const nameHistoryDiv = document.createElement('div');
+                nameHistoryDiv.classList.add('name-history');
+
+                const title = document.createElement('h1');
+                title.textContent = item.title;
+
+                const studio = document.createElement('p');
+                studio.innerHTML = `<span style="color:white;" class="mdi mdi-video-wireless-outline"></span> ${item.studio}`;
+                studio.style.fontSize = '15px';
+                studio.style.color = 'gray';
+                studio.style.marginTop = '10px';
+
+                const bintang = document.createElement('p');
+                bintang.innerHTML = `<span style="color:white;" class="mdi mdi-star"></span> ${item.bintang}`;
+                bintang.style.fontSize = '15px';
+                bintang.style.color = 'gray';
+                bintang.style.marginTop = '7px';
+
+                const durasi = document.createElement('p');
+                durasi.innerHTML = `<span style="color:white;" class="mdi mdi-clock"></span> ${item.durasi}`;
+                durasi.style.fontSize = '15px';
+                durasi.style.color = 'gray';
+                durasi.style.marginTop = '7px';
+
+                const watchedAt = document.createElement('p');
+                watchedAt.innerHTML = `<span style="color:white;" class="mdi mdi-clock-outline"></span>  ${item.watchedAt} `;
+                watchedAt.style.fontSize = '15px';
+                watchedAt.style.color = 'gray';
+                watchedAt.style.marginTop = '7px';
+                
+
+                // Menambahkan tombol tonton di bawah durasi
+                const bgHistoryTonton = document.createElement('div');
+                bgHistoryTonton.classList.add('bg-history-tonton');
+                bgHistoryTonton.innerHTML = `<h1>${item.episode}</h1> <span class="mdi mdi-play-circle"></span>`;
+                
+                
+
+                nameHistoryDiv.appendChild(title);
+                nameHistoryDiv.appendChild(studio);
+                nameHistoryDiv.appendChild(bintang);
+                nameHistoryDiv.appendChild(durasi);
+                nameHistoryDiv.appendChild(watchedAt);
+                
+
+                historyItem.appendChild(img);
+                historyItem.appendChild(nameHistoryDiv);
+
+                // Menambahkan historyItem di bagian atas daftar
+                historyContainer.insertBefore(historyItem, historyContainer.firstChild);
+            }
+        });
+
+        if (historyContainer.innerHTML === '') {
+            historyContainer.innerHTML = '<p style="color:white;margin-top: 75%;">No watch history found.</p>';
+        }
+    }
+});
+
+function deleteHistory() {
+    localStorage.removeItem('watchHistory');
+    const historyContainer = document.getElementById('historyContainer');
+    historyContainer.innerHTML = '<p style="color:white;margin-top: 75%;">No watch history found.</p>';
+}
+
+
+</script>
+  <script src="main.js"></script>
+  <script src="data_video.js"></script>
+  <script src="theme-toggle.js"></script>
+</body>
+</html>

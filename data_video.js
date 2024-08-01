@@ -660,7 +660,7 @@
        }
         ],
         "relatedMovies": 
-        ["doraemonmovie42"],
+        ["doraemonmovie42", "standbymedoraemon2"],
                 
             },
 "doraemonmovie42": {
@@ -689,7 +689,7 @@
         ], 
 
         "relatedMovies": 
-        ["standbymedoraemon2"],
+        ["doraemonmovie42", "standbymedoraemon2"],
                 
             },
 "arcaneleagueoflegends": {
@@ -961,7 +961,7 @@
        }
         ],
     "relatedMovies": 
-        ["kungfupandathepaws"],
+        ["kungfupandathepaws", "kungfupanda4"],
                 
             },
 "kungfupandathepaws": {
@@ -1085,8 +1085,8 @@
                 "duration": "23 menit",
         },
         ],
-"relatedMovies": 
-        ["kungfupanda4"],
+    "relatedMovies": 
+        ["kungfupandathepaws", "kungfupanda4"],
                 
             },
 
@@ -1115,7 +1115,7 @@
        }
         ],
                 "relatedMovies": 
-        ["godzillakingofthemonster", "godzillavskong"],
+        ["godzillakingofthemonster", "godzillavskong", "godzilaxkingkongtne"],
 "aktor":[
         {
                 "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -5250,7 +5250,7 @@
        }
         ],
 "relatedMovies": 
-        ["harrypotterandthedeathlypt1", "harrypotterprisoner"],
+        ["harrypotterandthedeathlypt1", "harrypotterprisoner", "harrypotterandthehalfblood"],
 
   "aktor": [
     {
@@ -5345,7 +5345,7 @@
        }
         ],
 "relatedMovies": 
-        ["harrypotterandthehalfblood", "harrypotterprisoner"],
+        ["harrypotterandthedeathlypt1", "harrypotterprisoner", "harrypotterandthehalfblood"],
   "aktor": [
     {
       "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -5487,8 +5487,8 @@
                     
        }
         ],
-                        "relatedMovies": 
-        ["godzilaxkingkongtne", "godzillavskong"],
+                "relatedMovies": 
+        ["godzillakingofthemonster", "godzillavskong", "godzilaxkingkongtne"],
 "aktor":[
         {
                 "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -5542,8 +5542,8 @@
                     
        }
         ],
-        "relatedMovies": 
-        ["harrypotterandthehalfblood", "harrypotterandthedeathlypt1"],
+"relatedMovies": 
+        ["harrypotterandthedeathlypt1", "harrypotterprisoner", "harrypotterandthehalfblood"],
 
   "aktor": [
     {
@@ -6003,8 +6003,8 @@
                     
        }
         ],
-                        "relatedMovies": 
-        ["godzillakingofthemonster", "godzilaxkingkongtne"],
+                "relatedMovies": 
+        ["godzillakingofthemonster", "godzillavskong", "godzilaxkingkongtne"],
 "aktor":[
     {
         "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -6432,7 +6432,7 @@
        }
         ],
         "relatedMovies": 
-        ["kimetsunoyaibaseason4"],
+        ["kimetsunoyaibaseason4", "kimetsunoyaibamugenressha"],
             },
             
             
@@ -6527,7 +6527,7 @@
 
         ],
         "relatedMovies": 
-        ["kimetsunoyaibamugenressha"],
+        ["kimetsunoyaibaseason4", "kimetsunoyaibamugenressha"],
 
         
                 

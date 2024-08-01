@@ -5799,7 +5799,7 @@
        }
         ],
         "relatedMovies": 
-        ["avengersendgame"],
+        ["avengersendgame", "avengersinfinitywar"],
 "aktor":[
     {
         "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -5864,7 +5864,7 @@
        }
         ],
         "relatedMovies": 
-        ["avengersinfinitywar"],
+        ["avengersendgame", "avengersinfinitywar"],
 "aktor":[
     {
         "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",

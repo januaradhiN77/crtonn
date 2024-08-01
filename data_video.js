@@ -3840,7 +3840,7 @@
        }
         ],
         "relatedMovies": 
-        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming"],
+        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming", "spidermanacross"],
                 
             },
             
@@ -6088,7 +6088,7 @@
         ],
 
         "relatedMovies": 
-        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanacross"],
+        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming", "spidermanacross"],
   "aktor": [
     {
       "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
@@ -6198,8 +6198,8 @@
                     
        }
         ],
-                                        "relatedMovies": 
-        ["spidermanfarfromhome", "spidermannowayhome", "spidermanhomecoming", "spidermanacross"],
+        "relatedMovies": 
+        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming", "spidermanacross"],
             },
 "spidermanfarfromhome": {
                 "title": "Spider-Man: Far from Home",
@@ -6226,8 +6226,8 @@
                     
        }
         ],
-                                "relatedMovies": 
-        ["spidermanhomecoming", "spidermannowayhome", "spidermanintothespiderverse", "spidermanacross"],
+        "relatedMovies": 
+        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming", "spidermanacross"],
 
   "aktor": [
     {
@@ -6324,8 +6324,8 @@
                     
        }
         ],
-                                "relatedMovies": 
-        ["spidermanfarfromhome", "spidermanhomecoming", "spidermanintothespiderverse", "spidermanacross"],
+        "relatedMovies": 
+        ["spidermanfarfromhome", "spidermannowayhome", "spidermanintothespiderverse", "spidermanhomecoming", "spidermanacross"],
 
   "aktor": [
     {

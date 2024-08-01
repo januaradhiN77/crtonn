@@ -170,11 +170,11 @@
         </div>
       </nav>
       <section
-        style="margin-top: 690px;margin-left: 220px; position: fixed;z-index: 99999999999999999999999; background: transparent;">
+        style="margin-top: 690px;margin-left: 220px; position: fixed;z-index:  99999999999999999999999; background: transparent; display: none;" id="relatedMoviesButton">
         <button class="buttongoweb" onclick="showMovieTerkait()">
           <div>
             <div
-              style="display: flex; justify-content: center; align-items: center;text-align: center;background: transparent;">
+              style="display: flex; justify-content: center; align-items: center;text-align: center;background: transparent;" >
               <h1
                 style="z-index: 9999999; position: absolute;text-align: center; font-size: 20px; color: white; font-family: 'Zen Maru Gothic';">
                 Movie Terkait</h1>
@@ -418,66 +418,70 @@
         }
       
         function displayRelatedMovies(relatedMovies) {
-          const relatedMoviesContainer = document.getElementById("relatedMovies");
-          relatedMoviesContainer.innerHTML = '';
-          if (relatedMovies.length === 0) {
-            const noRelatedMoviesMessage = document.createElement("h1");
-            noRelatedMoviesMessage.textContent = "Tidak ada movie terkait";
-      
-            noRelatedMoviesMessage.style.textAlign = "center"; 
-            noRelatedMoviesMessage.style.fontSize = "18px"; 
-            noRelatedMoviesMessage.style.color = "#ffffff"; 
-            noRelatedMoviesMessage.style.marginTop = "20px"; 
-            noRelatedMoviesMessage.style.marginBottom = "20px"; 
-            relatedMoviesContainer.appendChild(noRelatedMoviesMessage);
-          } else {
-            relatedMovies.forEach(movieKey => {
-              if (data.hasOwnProperty(movieKey)) {
-                const movie = data[movieKey];
-      
-                const movieButton = document.createElement("button");
-                movieButton.classList.add("buttongoweb");
-                movieButton.addEventListener("click", function () {
-                  window.location.href = `videos_detail.html?animation=${movieKey}`;
-                });
-      
-                const movieDiv = document.createElement("div");
-                movieDiv.classList.add("data-item");
-      
-                const movieBox = document.createElement("div");
-                movieBox.classList.add("movies-box", "skeleton");
-      
-                const movieImg = document.createElement("img");
-                movieImg.src = movie.bgimg;
-                movieImg.alt = movie.title;
-      
-                const imageOverlay = document.createElement("div");
-                imageOverlay.classList.add("image-overlay");
-      
-                const overlay = document.createElement("div");
-                overlay.classList.add("overlay");
-      
-                const judulMovies = document.createElement("div");
-                judulMovies.classList.add("judul-movies", "skeleton");
-      
-                const movieTitle = document.createElement("h1");
-                movieTitle.textContent = movie.title;
-      
-                judulMovies.appendChild(movieTitle);
-      
-                movieBox.appendChild(movieImg);
-                movieBox.appendChild(imageOverlay);
-                movieBox.appendChild(overlay);
-                movieBox.appendChild(judulMovies);
-      
-                movieDiv.appendChild(movieBox);
-      
-                movieButton.appendChild(movieDiv);
-                relatedMoviesContainer.appendChild(movieButton);
-              }
-            });
-          }
-        }
+  const relatedMoviesContainer = document.getElementById("relatedMovies");
+  relatedMoviesContainer.innerHTML = '';
+  const relatedMoviesButton = document.getElementById("relatedMoviesButton"); // Tambahkan ID pada tombol related movies di HTML
+
+  if (relatedMovies.length === 0) {
+    relatedMoviesButton.style.display = 'none'; // Sembunyikan tombol related movies
+    const noRelatedMoviesMessage = document.createElement("h1");
+    noRelatedMoviesMessage.textContent = 'Tidak ada movie terkait';
+
+    noRelatedMoviesMessage.style.textAlign = 'center'; 
+    noRelatedMoviesMessage.style.fontSize = "18px"; 
+    noRelatedMoviesMessage.style.color = "#ffffff"; 
+    noRelatedMoviesMessage.style.marginTop = "20px"; 
+    noRelatedMoviesMessage.style.marginBottom = "20px"; 
+    relatedMoviesContainer.appendChild(noRelatedMoviesMessage);
+  } else {
+    relatedMoviesButton.style.display = 'block'; // Tampilkan tombol related movies jika ada data
+    relatedMovies.forEach(movieKey => {
+      if (data.hasOwnProperty(movieKey)) {
+        const movie = data[movieKey];
+
+        const movieButton = document.createElement("button");
+        movieButton.classList.add("buttongoweb");
+        movieButton.addEventListener("click", function () {
+          window.location.href = `videos_detail.html?animation=${movieKey}`;
+        });
+
+        const movieDiv = document.createElement("div");
+        movieDiv.classList.add("data-item");
+
+        const movieBox = document.createElement("div");
+        movieBox.classList.add("movies-box", "skeleton");
+
+        const movieImg = document.createElement("img");
+        movieImg.src = movie.bgimg;
+        movieImg.alt = movie.title;
+
+        const imageOverlay = document.createElement("div");
+        imageOverlay.classList.add("image-overlay");
+
+        const overlay = document.createElement("div");
+        overlay.classList.add("overlay");
+
+        const judulMovies = document.createElement("div");
+        judulMovies.classList.add("judul-movies", "skeleton");
+
+        const movieTitle = document.createElement("h1");
+        movieTitle.textContent = movie.title;
+
+        judulMovies.appendChild(movieTitle);
+
+        movieBox.appendChild(movieImg);
+        movieBox.appendChild(imageOverlay);
+        movieBox.appendChild(overlay);
+        movieBox.appendChild(judulMovies);
+
+        movieDiv.appendChild(movieBox);
+
+        movieButton.appendChild(movieDiv);
+        relatedMoviesContainer.appendChild(movieButton);
+      }
+    });
+  }
+}
       </script>
     </body>
 

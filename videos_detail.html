@@ -260,7 +260,7 @@
           <div
             style="height: 400px; overflow-y:auto;width:100%;display: flex;flex-direction: column; margin-bottom: auto;scroll-behavior: smooth;">
             <div id="relatedMovies"
-              style="display: flex; width: 97%; margin-top: 15px; flex-wrap: wrap; gap: 10px; padding-bottom: 10px;justify-content: left; align-items: center;">
+              style="display: flex; width: 100%; margin-top: 15px; flex-wrap: wrap; gap: 10px; padding-bottom: 10px;justify-content: left; align-items: center; padding-left: 25px;">
 
             </div>
           </div>
@@ -447,9 +447,10 @@
 
         const movieDiv = document.createElement("div");
         movieDiv.classList.add("data-item");
-
+        
         const movieBox = document.createElement("div");
         movieBox.classList.add("movies-box", "skeleton");
+        movieBox.style.marginLeft = "-7px";
 
         const movieImg = document.createElement("img");
         movieImg.src = movie.bgimg;

@@ -5855,8 +5855,8 @@
 
         "episodes": [
           {
-            "episodeTitle": "Error",
-            "episodeJudul": "Error",
+            "episodeTitle": "Sedang diperbaiki",
+            "episodeJudul": "Error Data",
             "description": "No Data",
             "episodeUrl": "",
             "duration": "No Data",

@@ -5865,59 +5865,7 @@
         ],
         "relatedMovies": 
         ["avengersendgame", "avengersinfinitywar"],
-        
-"aktor":[
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Robert Downey Jr.",
-        "karakter": "(Tony Stark / Iron Man)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Chris Evans",
-        "karakter": "(Steve Rogers / Captain America)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Mark Ruffalo",
-        "karakter": "(Bruce Banner / Hulk)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Chris Hemsworth",
-        "karakter": "(Thor)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Scarlett Johansson",
-        "karakter": "(Natasha Romanoff / Black Widow)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Jeremy Renner",
-        "karakter": "(Clint Barton / Hawkeye)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Don Cheadle",
-        "karakter": "(James Rhodes / War Machine)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Paul Rudd",
-        "karakter": "(Scott Lang / Ant-Man)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Benedict Cumberbatch",
-        "karakter": "(Dr. Stephen Strange)"
-    },
-    {
-        "image aktor": "https://www.gstatic.com/knowledgecard/person-95.png",
-        "namaAktor": "Tom Holland",
-        "karakter": "(Peter Parker / Spider-Man)"
-    }
-]
+
 },
 
 

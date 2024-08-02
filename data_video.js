@@ -6532,6 +6532,35 @@
         
                 
             },
+            
+"munkar2024": {
+                "title": "Munkar (2024)",
+                "terjemah": "Film Bioskop",
+                "rating": "5.6",
+                "type": "HD+",
+                "studio": "MD Pictures",
+                "rilis": "7 Februari 2024",
+                "gendre1": "Horror",
+                "gendre2": "Thriller",
+                "gendre3": "Drama",
+                "description": "Herlina merupakan salah satu santriwati yang sering mendapatkan perundungan dari beberapa teman-temannya, pada suatu hari ia meninggal dunia karena kecelakaan dikarenakan melarikan diri saat teman-temannya merundungnya. Tak terima anaknya meninggal, kemudian orang tua Herlina membawa jenazah Herlina kepada seorang dukun untuk menghidupkannya kembali dan mengirimkan arwah Herlina untuk membalaskan dendam Herlina terhadap teman-temannya di pesantren.",
+                "bgimg": "https://m.media-amazon.com/images/M/MV5BZmU0NDNiOGMtM2Q2My00MjJjLWI5NTYtNWE4YjBjNTU2ZTM3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+                "trailer": "https://www.youtube.com/embed/lWwcvvmXyBc",
+                "duration": "1 jam 27m",
+"episodes": [
+        {
+       "episodeTitle": "Tonton", 
+       "episodeJudul": "Munkar 2024",
+"description": "Herlina merupakan salah satu santriwati yang sering mendapatkan perundungan dari beberapa teman-temannya, pada suatu hari ia meninggal dunia karena kecelakaan dikarenakan melarikan diri saat teman-temannya merundungnya. Tak terima anaknya meninggal, kemudian orang tua Herlina membawa jenazah Herlina kepada seorang dukun untuk menghidupkannya kembali dan mengirimkan arwah Herlina untuk membalaskan dendam Herlina terhadap teman-temannya di pesantren.",
+       "episodeUrl": "https://drive.google.com/file/d/1P2WfmY883AwrFQ2CDig3bliHK842b3sx/preview",
+"duration": "1 jam 27m",
+
+                    
+       }
+        ]
+                
+            },
+            
 };
 
 

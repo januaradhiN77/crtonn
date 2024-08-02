@@ -845,11 +845,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   overflow: hidden;
   width: 100%;
   position: relative;
+  
 
 }
 
 .slides {
   display: flex;
+  
   width: 100%;
 }
 

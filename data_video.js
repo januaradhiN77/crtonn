@@ -5856,9 +5856,9 @@
         "episodes": [
           {
             "episodeTitle": "Sedang diperbaiki",
-            "episodeJudul": "Waiting",
+            "episodeJudul": "Avengers: Endgame",
             "description": "",
-            "episodeUrl": "",
+            "episodeUrl": "https://drive.google.com/file/d/1sTDt4FGtkL3HNFVCSvVG4-s4lrl-Ci3k/preview",
             "duration": "3 jam 01m",
         
         

@@ -1304,6 +1304,8 @@
                     
        }
         ],
+                "relatedMovies": 
+        ["kkndidesapenari", "badarawuhididesapenari"],
 "aktor":[
 {
 "image aktor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgt8HkHxNksIgeTTvDfESNN17vXGsq0uTQEg&s",
@@ -6529,13 +6531,14 @@
        "episodeTitle": "Tonton", 
        "episodeJudul": "Badarawuhi di Desa Penari",
 "description": "Mila, bersama dengan sepupunya, Yuda, dan sahabat mereka, Arya dan Jito, pergi menuju ke sebuah desa terpencil di tengah hutan yang dikenal sebagai Desa Penari. Mila percaya bahwa jika dia mengembalikan sebuah gelang antik milik Badarawuhi, sesosok entitas gaib yang menguasai desa tersebut, dapat menyembuhkan penyakit ibunya. Namun, setelah Mila berhasil mengembalikan gelang tersebut, keadaan justru malah semakin memburuk.",
-       "episodeUrl": "",
+       "episodeUrl": "https://drive.google.com/file/d/1pxtCGu4Pf_wo_MNwfYdbljGAODE0tdeX/preview",
 "duration": "2 jam 02m",
 
                     
        }
-        ]
-                
+        ],
+        "relatedMovies": 
+        ["kkndidesapenari", "badarawuhididesapenari"],
             },
 };
 

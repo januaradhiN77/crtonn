@@ -6618,7 +6618,7 @@
                 "duration": "1 jam 32m",
 "episodes": [
         {
-       "episodeTitle": "Tonton", 
+       "episodeTitle": "Episode 2", 
        "episodeJudul": "Dia Angkasa (EP 2)",
 "description": "Menceritakan tentang Angkasa, seorang remaja pemberontak, yang terkenal sebagai pemimpin geng di sekolahnya. Berusaha keras untuk mengisi kekosongan sosok ibu dalam hidupnya, dan setelah berselisih dengan pacarnya yang kaya, ia bertemu Aurora, yang sangat cocok dengannya dalam hal ego dan keras kepala. Seperti kebanyakan kisah lama, benturan kepribadian akhirnya memicu romansa. Namun ketika ia menyadari salah satu temannya jatuh cinta pada Aurora, akankah Angkasa memilih persahabatan daripada cinta?.",
        "episodeUrl": "https://drive.google.com/file/d/13Rn413BjEhze1F8lshiUIMBIlg9UlCGv/preview",
@@ -6627,7 +6627,7 @@
                     
        },
         {
-       "episodeTitle": "Tonton", 
+       "episodeTitle": "Episode 1", 
        "episodeJudul": "Dia Angkasa (EP 1)",
 "description": "Menceritakan tentang Angkasa, seorang remaja pemberontak, yang terkenal sebagai pemimpin geng di sekolahnya. Berusaha keras untuk mengisi kekosongan sosok ibu dalam hidupnya, dan setelah berselisih dengan pacarnya yang kaya, ia bertemu Aurora, yang sangat cocok dengannya dalam hal ego dan keras kepala. Seperti kebanyakan kisah lama, benturan kepribadian akhirnya memicu romansa. Namun ketika ia menyadari salah satu temannya jatuh cinta pada Aurora, akankah Angkasa memilih persahabatan daripada cinta?.",
        "episodeUrl": "https://drive.google.com/file/d/13WUgDELcUniS8YQSX2ujT_PF6eEAnqEm/preview",

@@ -6510,7 +6510,33 @@
         ]
                 
             },
-            
+"badarawuhididesapenari": {
+                "title": "Badarawuhi di Desa Penari",
+                "terjemah": "Film Bioskop",
+                "rating": "6.1",
+                "type": "HD+",
+                "studio": "MD Pictures",
+                "rilis": "11 April 2024",
+                "gendre1": "Horror",
+                "gendre2": "Misteri",
+                "gendre3": "Thriller",
+                "description": "Mila, bersama dengan sepupunya, Yuda, dan sahabat mereka, Arya dan Jito, pergi menuju ke sebuah desa terpencil di tengah hutan yang dikenal sebagai Desa Penari. Mila percaya bahwa jika dia mengembalikan sebuah gelang antik milik Badarawuhi, sesosok entitas gaib yang menguasai desa tersebut, dapat menyembuhkan penyakit ibunya. Namun, setelah Mila berhasil mengembalikan gelang tersebut, keadaan justru malah semakin memburuk.",
+                "bgimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKWbrgdebwZXbyqNScbSDFqn80eFaril47Q&usqp=CAU",
+                "trailer": "https://www.youtube.com/embed/dkbwPpPJCLo",
+                "duration": "2 jam 02m",
+"episodes": [
+        {
+       "episodeTitle": "Tonton", 
+       "episodeJudul": "Badarawuhi di Desa Penari",
+"description": "Mila, bersama dengan sepupunya, Yuda, dan sahabat mereka, Arya dan Jito, pergi menuju ke sebuah desa terpencil di tengah hutan yang dikenal sebagai Desa Penari. Mila percaya bahwa jika dia mengembalikan sebuah gelang antik milik Badarawuhi, sesosok entitas gaib yang menguasai desa tersebut, dapat menyembuhkan penyakit ibunya. Namun, setelah Mila berhasil mengembalikan gelang tersebut, keadaan justru malah semakin memburuk.",
+       "episodeUrl": "",
+"duration": "2 jam 02m",
+
+                    
+       }
+        ]
+                
+            },
 };
 
 

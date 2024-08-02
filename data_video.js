@@ -5852,17 +5852,18 @@
         "bgimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMz4LPDGpspR0nxXujk4D2KjKGL3qjxJJy2w&usqp=CAU",
         "trailer": "https://www.youtube.com/embed/iKaruCq6ZY8",
         "duration": "3 jam 01m",
-        "episodes": [
-                {
-                        "episodeTitle": "Tonton",
-                        "episodeJudul": "Avengers: Endgame",
-                        "description": "Melanjutkan Avengers Infinity War, dimana kejadian setelah Thanos berhasil mendapatkan semua infinity stones dan memusnahkan 50% semua mahluk hidup di alam semesta. Akankah para Avengers berhasil mengalahkan Thanos?",
-                        "episodeUrl": "https://drive.google.com/file/d/1sTDt4FGtkL3HNFVCSvVG4-s4lrl-Ci3k/preview",
-                        "duration": "3 jam 01m",
 
-                        
-       }
-        ],
+        "episodes": [
+          {
+            "episodeTitle": "Error",
+            "episodeJudul": "Error",
+            "description": "No Data",
+            "episodeUrl": "",
+            "duration": "No Data",
+        
+        
+               }
+                ],
         "relatedMovies": 
         ["avengersendgame", "avengersinfinitywar"],
 

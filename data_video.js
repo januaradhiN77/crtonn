@@ -5857,7 +5857,7 @@
           {
             "episodeTitle": "Tonton",
             "episodeJudul": "Avengers: Endgame",
-            "description": "Melanjutkan Avengers Infinity War, dimana kejadian setelah Thanos berhasil mendapatkan semua infinity stones dan memusnahkan 50% semua mahluk hidup di alam semesta.",
+            "description": "Melanjutkan Avengers Infinity War, dimana kejadian setelah Thanos berhasil mendapatkan semua infinity stones dan memusnahkan 50 persen semua mahluk hidup di alam semesta.",
             "episodeUrl": "https://drive.google.com/file/d/1sTDt4FGtkL3HNFVCSvVG4-s4lrl-Ci3k/preview",
             "duration": "3 jam 01m",
         

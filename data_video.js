@@ -6539,6 +6539,68 @@
         ],
         "relatedMovies": 
         ["kkndidesapenari", "badarawuhididesapenari"],
+        "aktor":[
+{
+"image aktor": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Maudy_Effrosina_-_Qodrat_Promo_on_Berisik_by_Antara_TV_Indonesia.png",
+"namaAktor": "Maudy Effrosina",
+"karakter": "(Mila)"
+},
+{
+  "image aktor": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRV2WLAcvMD5LldGJvlLGJmxjOgT8ZmOAOFS1GOtJxMI6fGs6Sh",
+  "namaAktor": "Claresta Taufan",
+  "karakter": "(Ratih)"
+},
+{
+  "image aktor": "https://upload.wikimedia.org/wikipedia/commons/d/df/Aulia_Sarah_in_2020.png",
+  "namaAktor": "Aulia Sarah",
+  "karakter": "(Badarawuhi)"
+},
+{
+  "image aktor": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQs56r1_3Un4AHecYlahQhXw7faPDcU75V8yPN_fzzO266nJPw7lhECC_jQeQ4k9ub2gYTdettqenAjPeijSI0RA3lUCvMPOK5frBsBvHFZmcc5c-O3Vky3hln7s7ssM3iixwRSU6Xe",
+  "namaAktor": "Ardit Erwandha",
+  "karakter": "(Arya)"
+},
+{
+  "image aktor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYG3DPT1jozU3MqsDR-Be4mHOye6rA6tM8sFLgkgXfdI51qXr",
+  "namaAktor": "Dinda Kanyadewi",
+  "karakter": "(Jiyanti)"
+},
+{
+  "image aktor": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTulm-Bl72qmTFJb9WQ5rhyQGA0d7ij0k3DGtbcLvG7FIm_imqhcs_u60X_VSkgNjU_6ySqqcNXVgdaNSk",
+  "namaAktor": "Jourdy Pranata",
+  "karakter": "(Yuda)"
+},
+{
+  "image aktor": "https://cdn.antaranews.com/cache/1200x800/2024/01/29/1000080642.jpg",
+  "namaAktor": "Aming",
+  "karakter": "(Mbah Buyut Muda)"
+},
+{
+  "image aktor": "https://asset.kompas.com/crops/_MayL9oPy8BjHEaZ579UVR_xgLk=/0x0:812x541/750x500/data/photo/2023/08/22/64e453f630fbb.png",
+  "namaAktor": "Diding Boneng",
+  "karakter": "(Mbah Buyut)"
+},
+{
+  "image aktor": "https://ffis3.is3.cloudhost.id/profile/photo/815/Maryam-Supraba.jpg",
+  "namaAktor": "Maryam Supraba",
+  "karakter": "(Inggri)"
+},
+{
+  "image aktor": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/28/1800851406.jpg",
+  "namaAktor": "Moh. Iqbal Sulaiman",
+  "karakter": "(Jito)"
+},
+{
+  "image aktor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOeXNNMTV0rq4qXfBZsPHQnWO7_0cPAUfOzQ&usqp=CAU",
+  "namaAktor": "Pipien Putri",
+  "karakter": "(Mbah Putri)"
+},
+{
+  "image aktor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7_v8eO0sGLabqcGeVW4xwRv-qc3EtRL52QA&usqp=CAU",
+  "namaAktor": "Baiq Vania Estiningtyas Sagita",
+  "karakter": "(Santika)"
+},
+]
             },
 };
 

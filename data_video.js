@@ -5856,7 +5856,7 @@
         "episodes": [
           {
             "episodeTitle": "Sedang diperbaiki",
-            "episodeJudul": "",
+            "episodeJudul": "Waiting",
             "description": "",
             "episodeUrl": "",
             "duration": "3 jam 01m",

@@ -21,7 +21,15 @@ function removeOverlay(event) {
   overlay.classList.remove('active');
 }
 
+function addOverlaychannel(event) {
+  var overlaychannel = event.currentTarget.querySelector('.overlaychannel');
+  overlaychannel.classList.add('active');
+}
 
+function removeOverlaychannel(event) {
+  var overlaychannel = event.currentTarget.querySelector('.overlaychannel');
+  overlaychannel.classList.remove('active');
+}
 function addOverlayNavbar(event) {
   var overlayNavbar = event.currentTarget.querySelector('.overlay-navbar');
   overlayNavbar.classList.add('active');

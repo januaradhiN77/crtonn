@@ -6657,7 +6657,7 @@
        "episodeTitle": "Tonton", 
        "episodeJudul": "Deadpool & Wolverine",
 "description": "Deadpool ditawari tempat di Marvel Cinematic Universe oleh Time Variance Authority, namun malah merekrut varian Wolverine untuk menyelamatkan alam semesta dari kepunahan.",
-       "episodeUrl": "",
+       "episodeUrl": "https://drive.google.com/file/d/1LFw8FCE3OcNTgnTo2GTm3OC-IpsuMwIc/preview",
 "duration": "2 jam 08m",
 
                     

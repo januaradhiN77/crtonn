@@ -6638,6 +6638,33 @@
         ]
                 
             },
+"deadpoolandwolverine": {
+                "title": "Deadpool & Wolverine",
+                "terjemah": "Film Bioskop",
+                "rating": "8.1",
+                "type": "HD Cam",
+                "studio": "Marvel Studios",
+                "rilis": "26 Juli 2024",
+                "gendre1": "Action",
+                "gendre2": "Adventure",
+                "gendre3": "Comedy",
+                "description": "Deadpool ditawari tempat di Marvel Cinematic Universe oleh Time Variance Authority, namun malah merekrut varian Wolverine untuk menyelamatkan alam semesta dari kepunahan.",
+                "bgimg": "https://m.media-amazon.com/images/M/MV5BNzRiMjg0MzUtNTQ1Mi00Y2Q5LWEwM2MtMzUwZDU5NmVjN2NkXkEyXkFqcGc@._V1_.jpg",
+                "trailer": "https://www.youtube.com/embed/73_1biulkYk",
+                "duration": "2 jam 08m",
+"episodes": [
+        {
+       "episodeTitle": "Tonton", 
+       "episodeJudul": "Deadpool & Wolverine",
+"description": "Deadpool ditawari tempat di Marvel Cinematic Universe oleh Time Variance Authority, namun malah merekrut varian Wolverine untuk menyelamatkan alam semesta dari kepunahan.",
+       "episodeUrl": "",
+"duration": "2 jam 08m",
+
+                    
+       }
+        ]
+                
+            },
 };
 
 

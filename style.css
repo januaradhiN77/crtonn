@@ -865,7 +865,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .slides {
   display: flex;
-  
+  height: 230px;
   width: 100%;
 }
 

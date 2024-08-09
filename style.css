@@ -149,7 +149,7 @@ html {
   display: flex;
   flex-direction: column;
   height: 199px;
-  transform: skewX(-2deg);
+  
   
   position: relative;
   justify-content: center;
